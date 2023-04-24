@@ -1,0 +1,85 @@
+.show{
+    display:inline-flex;
+    margin: 3px;
+    width: 29px;
+    height: 40px;
+    font-size: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+#main{
+    display: none;
+    height: 400px;
+    width: 800px;
+    background-color:#ecb9ff;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: 10px solid black;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('images/bg.jpg');
+    background-size: cover;
+}
+#finaldiv{
+   
+}
+
+#chooseLevel{
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+ 
+}
+#chooseLevel h1{
+    font-size: 30px;
+    
+}
+#chooseLevel h3{
+    font-size: 25px;
+}
+button{
+    justify-content: space-evenly;
+    background-color: purple;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+button:hover{
+   font-size: larger;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+#hint1{
+    font-size: 35px;
+    color: black;
+    font-family: cursive;
+    background: linear-gradient(white,#ecb9ff);
+}
+#hint2{
+    font-size: 20px;
+    color: black;
+    background: linear-gradient(white,#ecb9ff);
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#result{
+    font-size: 35px;
+    color: black;
+    background: linear-gradient(white,#ecb9ff);
+}
